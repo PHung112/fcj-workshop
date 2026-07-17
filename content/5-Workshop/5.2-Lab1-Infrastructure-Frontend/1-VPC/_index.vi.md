@@ -26,7 +26,7 @@ Trong phần này, chúng ta sẽ tạo và cấu hình Virtual Private Cloud (V
    - **Name tag auto-generation**: Nhập tên VPC của bạn là `genzite`.
    - **IPv4 CIDR block**: `10.0.0.0/16`.
 
-![Create VPC Step 1](./images/create-vpc-step1.png)
+![Create VPC Step 1](/images/5-Workshop/5.2-Lab1-Infrastructure-Frontend/1-VPC/create-vpc-step1.png)
 
    - **Number of Availability Zones (AZs)**: `2`.
    - **Number of public subnets**: `2`.
@@ -35,7 +35,7 @@ Trong phần này, chúng ta sẽ tạo và cấu hình Virtual Private Cloud (V
    - **VPC endpoints**: Chọn **S3 Gateway**.
    - **DNS options**: Đảm bảo đã tích chọn **Enable DNS hostnames** và **Enable DNS resolution**.
 
-![Create VPC Step 2](./images/create-vpc-step2.png)
+![Create VPC Step 2](/images/5-Workshop/5.2-Lab1-Infrastructure-Frontend/1-VPC/create-vpc-step2.png)
 
 6. Kiểm tra lại cấu hình ở khung preview bên phải và nhấn nút **Create VPC**.
 
@@ -51,7 +51,7 @@ Trong trường hợp bạn chọn **None** ở phần NAT gateways khi tạo VP
    - **Connectivity type**: `Public`
    - **Elastic IP allocation ID**: Nhấn nút **Allocate Elastic IP**
 
-![Create NAT Gateway](./images/create-nat-gw.png)
+![Create NAT Gateway](/images/5-Workshop/5.2-Lab1-Infrastructure-Frontend/1-VPC/create-nat-gw.png)
 
 4. Nhấn **Create NAT gateway** và đợi vài phút để trạng thái chuyển sang **Available**.
 *(Lưu ý: Nếu tạo thủ công, bạn cần vào Route Table của Private Subnet và trỏ route `0.0.0.0/0` tới NAT Gateway vừa tạo).*

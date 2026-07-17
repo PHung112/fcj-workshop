@@ -20,17 +20,17 @@ Trước khi tạo RDS, ta cần nói cho AWS biết Database này được phé
 4. **Name**: `genzite-subnet-rds`.
 5. **Description**: `genzite-subnet-rds`.
 6. **VPC**: Chọn `genzite-vpc`.
-![Create Subnet Group](./images/5.4.1.1.png)
+![Create Subnet Group](/images/5-Workshop/5.4-Lab3-Database-Backend/1-Database-RDS/5.4.1.1.png)
 7. Kéo xuống phần **Add subnets**:
    - Chọn **Availability Zones**: Chọn `us-east-1a` và `us-east-1b`.
    - Chọn **Subnets**: Chọn 2 **Private Subnets**
-![Subnet Group](./images/5.4.1.2.png)
+![Subnet Group](/images/5-Workshop/5.4-Lab3-Database-Backend/1-Database-RDS/5.4.1.2.png)
 8. Nhấn **Create**.
-![Create Done](./images/5.4.1.3.png)
+![Create Done](/images/5-Workshop/5.4-Lab3-Database-Backend/1-Database-RDS/5.4.1.3.png)
 ## Bước 2: Khởi tạo Database Instance
 
 1. Từ menu bên trái, chọn **Databases** và nhấn **Create database** và chọn **Full Configuration**
-![Create RDS](./images/5.4.1.4.png)
+![Create RDS](/images/5-Workshop/5.4-Lab3-Database-Backend/1-Database-RDS/5.4.1.4.png)
 2. **Engine options**: Chọn **PostgreSQL** (Phiên bản `PostgreSQL 16.14-R2`).
 4. **Templates**: Chọn **Sand box**
 5. **Settings**:
@@ -38,8 +38,8 @@ Trước khi tạo RDS, ta cần nói cho AWS biết Database này được phé
    - **Master username**: `genzite_admin`.
    - **Credentials management**: Chọn **Self managed**.
    - **Master password**: Nhập mật khẩu đủ mạnh và xác nhận lại ở ô **Confirm master password**.
-![Credentials](./images/5.4.1.6.png)
-![Authentication](./images/5.4.1.7.png)
+![Credentials](/images/5-Workshop/5.4-Lab3-Database-Backend/1-Database-RDS/5.4.1.6.png)
+![Authentication](/images/5-Workshop/5.4-Lab3-Database-Backend/1-Database-RDS/5.4.1.7.png)
 
 6. **Instance configuration**:
    - Instance type: Chọn `db.t3.micro`.
@@ -51,19 +51,19 @@ Trước khi tạo RDS, ta cần nói cho AWS biết Database này được phé
 8. **Connectivity**:
    - **Compute resource**: Chọn **Don't connect to an EC2 compute resource**.
    - **Network type**: Chọn **IPv4**. 
-![Storage & Connectivity](./images/5.4.1.8.png)
+![Storage & Connectivity](/images/5-Workshop/5.4-Lab3-Database-Backend/1-Database-RDS/5.4.1.8.png)
    - **Virtual private cloud (VPC)**: Chọn `genzite-vpc`.
    - **DB Subnet Group**: Chọn `genzite-subnet-rds`.
    - **Public access**: Chọn **No** (Database không được phép truy cập từ Internet).
     - **VPC security group (firewall)**: Chọn **Choose existing**, loại bỏ thẻ `default`, và chọn `genzite-rds-sg` (Đã tạo ở Lab 1 - Security).
-   ![Public Access](./images/5.4.1.5.png)
+   ![Public Access](/images/5-Workshop/5.4-Lab3-Database-Backend/1-Database-RDS/5.4.1.5.png)
 
 9. **Database authentication**: Chọn **Password authentication**.
 10. **Monitoring**:
     - **Database Insights**: Chọn **Database Insights - Standard**.
     - **Performance Insights**: Bỏ tích **Enable Performance Insights**.
     - **Enhanced Monitoring**: Bỏ tích **Enable Enhanced monitoring**.
-![Monitoring](./images/5.4.1.9.png)
+![Monitoring](/images/5-Workshop/5.4-Lab3-Database-Backend/1-Database-RDS/5.4.1.9.png)
 
 11. Mở rộng phần **Additional configuration**:
     - **Database options**:
@@ -73,7 +73,7 @@ Trước khi tạo RDS, ta cần nói cho AWS biết Database này được phé
     - **Backup**:
       - Tích chọn **Enable automated backup**.
       - **Backup retention period**: Chọn `1 day`.
-![Additional configuration](./images/5.4.1.10.png)
+![Additional configuration](/images/5-Workshop/5.4-Lab3-Database-Backend/1-Database-RDS/5.4.1.10.png)
 
 12. Kiểm tra lại thông tin, cuộn xuống dưới cùng và nhấn **Create database**.
 

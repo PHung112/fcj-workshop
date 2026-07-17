@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - PhiHung
 
 permissions:
   contents: write

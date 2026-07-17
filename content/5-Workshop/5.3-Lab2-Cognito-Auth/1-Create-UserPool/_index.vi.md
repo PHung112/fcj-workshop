@@ -1,4 +1,4 @@
----
+﻿---
 title: "1. Tạo User Pool"
 weight: 1
 chapter: false
@@ -41,9 +41,9 @@ Trong phần này, chúng ta sẽ tạo một User Pool để lưu trữ và qu�
 5. **Client secret**: Chọn **Don't generate a client secret** (RẤT QUAN TRỌNG: Môi trường Frontend như React/SPA không bảo mật được client secret, nếu tạo secret thì frontend sẽ không gọi API được).
 6. Nhấn **Next**.
 
-![Create Cognito 1](image/5.3.1.1.png)
+![Create Cognito 1](/images/5-Workshop/5.3-Lab2-Cognito-Auth/1-Create-UserPool/5.3.1.1.png)
 
-![Create Cognito 2](image/5.3.1.2.png)
+![Create Cognito 2](/images/5-Workshop/5.3-Lab2-Cognito-Auth/1-Create-UserPool/5.3.1.2.png)
 
 ## Bước 7: Xem lại và tạo
 1. Kiểm tra lại toàn bộ thông tin đã cấu hình.

@@ -29,18 +29,18 @@ Dựa theo thiết kế, EC2 sẽ được đặt trong **Private Subnet** để
    - **Auto-assign public IP**: **Disable**.
    - **Firewall (security groups)**: Chọn **Create security group**.
    - **Security group name**: `genzite-sg`.
-![Config EC2](./images/5.4.2.1.png)
+![Config EC2](/images/5-Workshop/5.4-Lab3-Database-Backend/2-Backend-EC2/5.4.2.1.png)
 8. **Configure storage**:
    - Tăng dung lượng từ `8` lên `30` GiB.
 9. Các phần còn lại giữ nguyên. Nhấn **Launch instance**.
-![Config EC2](./images/5.4.2.2.png)
+![Config EC2](/images/5-Workshop/5.4-Lab3-Database-Backend/2-Backend-EC2/5.4.2.2.png)
 ## Bước 2: Thêm IAM Role cho EC2
 
 1. Quay về trang chủ **EC2** chọn **genzite-backend**, chọn **Actions**,chọn **Sercurity** rồi **Modify IAM role**.
-![Config EC2](./images/5.4.2.3.png)
+![Config EC2](/images/5-Workshop/5.4-Lab3-Database-Backend/2-Backend-EC2/5.4.2.3.png)
 2. Thay đổi IAM role thành role **genzite-role**.
 3. Nhấn **Update IAM role**.
-![Config EC2](./images/5.4.2.4.png)
+![Config EC2](/images/5-Workshop/5.4-Lab3-Database-Backend/2-Backend-EC2/5.4.2.4.png)
 4. Quay lại trang **EC2**, Tiến hành **Reboot** lại EC2 và đợi trong giây lát.
 5. Như vậy là đã thêm quyền xong cho EC2.
 

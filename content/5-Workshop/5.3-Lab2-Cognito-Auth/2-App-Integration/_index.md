@@ -22,7 +22,7 @@ In the Genzite Frontend source code directory, locate the `.env` file (create a 
 
 Paste the information you just retrieved into this file:
 
-![Setup Cognito Environment](image/5.3.2.1.png)
+![Setup Cognito Environment](/images/5-Workshop/5.3-Lab2-Cognito-Auth/2-App-Integration/5.3.2.1.png)
 
 *(Note: Replace the values with your actual User Pool ID and Client ID).*
 
@@ -32,7 +32,7 @@ To connect to Cognito from React, the project installs the following library:
 ```bash
 npm install aws-amplify
 ```
-![Run terminal Cognito](image/5.3.2.2.png)
+![Run terminal Cognito](/images/5-Workshop/5.3-Lab2-Cognito-Auth/2-App-Integration/5.3.2.2.png)
 
 In the application's entry file (e.g., `main.tsx` or `App.tsx`), Amplify is configured like this:
 
@@ -52,7 +52,7 @@ Amplify.configure({
 
 *(Alternatively, if you are using `react-oidc-context`, the configuration would look something like this):*
 
-![Warning Muc 3 Cognito](image/5.3.2.3.png)
+![Warning Muc 3 Cognito](/images/5-Workshop/5.3-Lab2-Cognito-Auth/2-App-Integration/5.3.2.3.png)
 
 From now on, whenever a user calls the `signIn({ username, password })` function from the Amplify library, the Frontend will automatically make an API call to AWS Cognito to authenticate and receive a **JWT Token**.
 

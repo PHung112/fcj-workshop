@@ -41,9 +41,9 @@ In this section, we will create a User Pool to securely store and manage user ac
 5. **Client secret**: Select **Don't generate a client secret** (VERY IMPORTANT: Frontend environments like React/SPA cannot securely store client secrets. If generated, the frontend will fail to authenticate).
 6. Click **Next**.
 
-![Create Cognito 1](image/5.3.1.1.png)
+![Create Cognito 1](/images/5-Workshop/5.3-Lab2-Cognito-Auth/1-Create-UserPool/5.3.1.1.png)
 
-![Create Cognito 2](image/5.3.1.2.png)
+![Create Cognito 2](/images/5-Workshop/5.3-Lab2-Cognito-Auth/1-Create-UserPool/5.3.1.2.png)
 
 ## Step 7: Review and create
 1. Review all the configured information.

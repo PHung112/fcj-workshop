@@ -19,12 +19,12 @@ Target Group là một nhóm chứa các máy chủ (EC2) mà ALB sẽ điều p
 2. Nhấn **Create target group**.
 3. **Choose a target type**: Chọn **Instances**.
 4. **Target group name**: `genzite-backend-tg`.
-![Config Target group](./images/5.4.3.1.png)
+![Config Target group](/images/5-Workshop/5.4-Lab3-Database-Backend/3-Load-Balancer/5.4.3.1.png)
 5. **Protocol**: `HTTP`. **Port**: `3000` (Port mà Backend API đang chạy).
 6. **VPC**: Chọn `genzite-vpc`.
 7. **Health checks**: Để mặc định (Protocol: HTTP, Path: `/`).
    *(Lưu ý: API cần có route trả về status code 200 ở đường dẫn `/` để Health check báo Healthy).*
-![Config Target group](./images/5.4.3.2.png)
+![Config Target group](/images/5-Workshop/5.4-Lab3-Database-Backend/3-Load-Balancer/5.4.3.2.png)
 8. Nhấn **Next**.
 9. Tại màn hình **Register targets**, chọn máy chủ `genzite-backend` ở danh sách bên dưới.
 10. Sửa port thành `3000` và nhấn **Include as pending below**.
@@ -49,17 +49,17 @@ Target Group là một nhóm chứa các máy chủ (EC2) mà ALB sẽ điều p
 3. Chọn **Application Load Balancer** và nhấn **Create**.
 4. **Load balancer name**: `genzite-alb`.
 5. **Scheme**: Chọn **Internet-facing**.
-![Config Target group](./images/5.4.3.5.png)
+![Config Target group](/images/5-Workshop/5.4-Lab3-Database-Backend/3-Load-Balancer/5.4.3.5.png)
 6. **Network mapping**:
    - **VPC**: Chọn `genzite-vpc`.
    - **Mappings**: Chọn 2 **Availability Zones** và tương ứng chọn 2 **Public Subnets**.
-![Config Target group](./images/5.4.3.6.png)
+![Config Target group](/images/5-Workshop/5.4-Lab3-Database-Backend/3-Load-Balancer/5.4.3.6.png)
 7. **Security groups**:
    - Chọn `genzite-alb-sg`. (Cấu hình Inbound rule cho phép truy cập HTTP/HTTPS).
 8. **Listeners and routing**:
    - **Protocol**: `HTTP`. **Port**: `80`.
    - **Default action**: Chọn Target group `frontend-tg` (để dẫn vào Frontend).
-   ![Config Target group](./images/5.4.3.7.png)
+   ![Config Target group](/images/5-Workshop/5.4-Lab3-Database-Backend/3-Load-Balancer/5.4.3.7.png)
 9. Các phần còn lại giữ nguyên và nhấn **Create load balancer**.
 
 ## Bước 3: Cấu hình Rule chuyển tiếp API
@@ -73,7 +73,7 @@ Target Group là một nhóm chứa các máy chủ (EC2) mà ALB sẽ điều p
 5. Kéo xuống phần **Actions**, chọn **Forward to** và chọn Target group `genzite-backend-tg`.
 6. Tại **Rule priority**, đặt Priority là `1`.
 7. Bấm **Add rule** để lưu.
-   ![Config Target group](./images/5.4.3.8.png)
+   ![Config Target group](/images/5-Workshop/5.4-Lab3-Database-Backend/3-Load-Balancer/5.4.3.8.png)
 
 Sau khi tạo thành công, ALB của bạn đã sẵn sàng điều hướng các truy cập giao diện vào Frontend, và các truy cập dữ liệu vào Backend!
 

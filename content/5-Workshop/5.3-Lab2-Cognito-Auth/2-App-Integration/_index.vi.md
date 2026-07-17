@@ -22,7 +22,7 @@ Trong thư mục mã nguồn Frontend của Genzite, tìm file `.env` (tạo fil
 
 Dán các thông tin vừa lấy được vào file này:
 
-![Setup Cognito Environment](image/5.3.2.1.png)
+![Setup Cognito Environment](/images/5-Workshop/5.3-Lab2-Cognito-Auth/2-App-Integration/5.3.2.1.png)
 
 *(Lưu ý: Thay thế các giá trị bằng User Pool ID và Client ID thực tế của bạn).*
 
@@ -32,7 +32,7 @@ Dán các thông tin vừa lấy được vào file này:
 ```bash
 npm install aws-amplify
 ```
-![Run terminal Cognito](image/5.3.2.2.png)
+![Run terminal Cognito](/images/5-Workshop/5.3-Lab2-Cognito-Auth/2-App-Integration/5.3.2.2.png)
 
 Trong file đầu vào của ứng dụng (ví dụ: `main.tsx` hoặc `App.tsx`), Amplify được cấu hình như sau:
 
@@ -52,7 +52,7 @@ Amplify.configure({
 
 *(Hoặc nếu bạn đang sử dụng `react-oidc-context`, cấu hình sẽ trông giống như thế này):*
 
-![Cấu hình React OIDC](image/5.3.2.3.png)
+![Cấu hình React OIDC](/images/5-Workshop/5.3-Lab2-Cognito-Auth/2-App-Integration/5.3.2.3.png)
 
 Từ giờ trở đi, mỗi khi người dùng gọi hàm `signIn({ username, password })` từ thư viện Amplify, Frontend sẽ tự động gọi API lên AWS Cognito để xác thực và nhận về **JWT Token**.
 

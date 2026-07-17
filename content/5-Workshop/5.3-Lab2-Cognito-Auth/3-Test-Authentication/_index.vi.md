@@ -27,7 +27,7 @@ Trình duyệt sẽ tự động mở tại `http://localhost:5173`.
 3. Nhập mã code gồm 6 chữ số vào ô nhập liệu trên màn hình.
 4. Nhấn **Verify**.
 
-![Test Mail Verify 1](image/5.3.3.1.png)
+![Test Mail Verify 1](/images/5-Workshop/5.3-Lab2-Cognito-Auth/3-Test-Authentication/5.3.3.1.png)
 
 ## Bước 4: Đăng nhập và Kiểm tra Token
 1. Sau khi xác thực thành công, giao diện sẽ tự động chuyển hướng về trang chủ hoặc màn hình **Sign In**.
@@ -45,7 +45,7 @@ Trình duyệt sẽ tự động mở tại `http://localhost:5173`.
 2. Nhấn vào `genzite-user-pool`.
 3. Trong tab **Users**, bạn sẽ thấy địa chỉ email vừa tạo có trạng thái là **CONFIRMED**.
 
-![Test Account Cognito](image/5.3.3.2.png)
+![Test Account Cognito](/images/5-Workshop/5.3-Lab2-Cognito-Auth/3-Test-Authentication/5.3.3.2.png)
 
 ---
 **Chúc mừng!** Tính năng đăng ký/đăng nhập của ứng dụng đã hoạt động trơn tru. Với JWT token này, người dùng đã có thể bắt đầu sử dụng các tính năng tạo website bằng AI của hệ thống.
