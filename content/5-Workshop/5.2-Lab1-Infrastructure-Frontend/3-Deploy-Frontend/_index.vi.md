@@ -104,7 +104,7 @@ Khi CloudFront distribution chuyển trạng thái Deploy hoàn tất, hãy copy
    - Truy cập giao diện **ACM Console** và yêu cầu cấp chứng chỉ public (Request public certificate) cho tên miền của bạn.
    - *Lưu ý quan trọng: Chứng chỉ dùng cho CloudFront bắt buộc phải được tạo ở Region **us-east-1 (N. Virginia)**.*
 
-![Cấu hình ACM](images/acm.png)
+![Cấu hình ACM](/images/5-Workshop/5.2-Lab1-Infrastructure-Frontend/3-Deploy-Frontend/acm.png)
 
 2. **Cập nhật CloudFront**: 
    - Mở CloudFront Distribution của bạn, phần **Settings** chọn Edit. 
@@ -114,4 +114,4 @@ Khi CloudFront distribution chuyển trạng thái Deploy hoàn tất, hãy copy
    - Truy cập **Route 53**, mở Hosted Zone của tên miền. 
    - Tạo một bản ghi mới (Create record), loại **A record**, bật công tắc **Alias** và trỏ (Route traffic to) tới CloudFront distribution của bạn.
 
-![Cấu hình Route 53](images/route53.png)
+![Cấu hình Route 53](/images/5-Workshop/5.2-Lab1-Infrastructure-Frontend/3-Deploy-Frontend/route53.png)

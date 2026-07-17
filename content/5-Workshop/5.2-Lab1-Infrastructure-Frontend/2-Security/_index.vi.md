@@ -36,7 +36,7 @@ Application Load Balancer (ALB) sẽ là cửa ngõ giao tiếp trực tiếp v�
    - Thêm Rule 2: Type `HTTPS`, Source `Anywhere-IPv4` (`0.0.0.0/0`).
 7. **Outbound rules**: Giữ nguyên mặc định (Allow All Traffic).
 8. Nhấn **Create security group**.
-![SG ALB](./images/5.2.2.1.png)
+![SG ALB](/images/5-Workshop/5.2-Lab1-Infrastructure-Frontend/2-Security/5.2.2.1.png)
 ## Bước 3: Tạo Security Group cho EC2 (Backend)
 
 EC2 backend chỉ nên nhận traffic từ ALB và cho phép bạn SSH vào, không được phép mở kết nối trực tiếp ra internet để tránh rủi ro.
