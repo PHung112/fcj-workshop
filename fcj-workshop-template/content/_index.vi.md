@@ -1,6 +1,6 @@
 ---
 title: "Báo cáo thực tập"
-date: 2024-01-01
+date: 2026-07-05
 weight: 1
 chapter: false
 ---
@@ -23,9 +23,9 @@ chapter: false
 
 &emsp; **Vị trí thực tập:** Workforce Bootcamp - First Cloud AI Journey
 
-&emsp; **Thời gian thực tập:** Từ ngày 20/04/2026 đến ngày 10/07/2026
+&emsp; **Thời gian thực tập:** Từ ngày 05/05/2026 đến ngày 30/07/2026
 
-![Ảnh đại diện của bạn](/images/avatar.png)
+<img src="/images/avatar.png" alt="avatar.png" width="700" />
 
 
 

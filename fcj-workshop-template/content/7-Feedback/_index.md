@@ -1,47 +1,51 @@
 ---
 title: "Sharing and Feedback"
-date: 2024-01-01
+date: 2026-07-16
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
-
-> Here, you can freely share your personal opinions about your experience participating in the First Cloud AI Journey program. This will help the FCAJ team improve any shortcomings based on the following aspects:
-
 ### Overall Evaluation
 
 **1. Working Environment**  
-The working environment is very friendly and open. FCAJ members are always willing to help whenever I encounter difficulties, even outside working hours. The workspace is tidy and comfortable, helping me focus better. However, I think it would be nice to have more social gatherings or team bonding activities to strengthen relationships.
+The working environment at FCAJ is very professional yet friendly and comfortable. Everyone is always on time, has a strong sense of responsibility, and is ready to support one another. This helped me quickly integrate and feel more confident during my internship.
 
 **2. Support from Mentor / Team Admin**  
-The mentor provides very detailed guidance, explains clearly when I don’t understand, and always encourages me to ask questions. The admin team supports administrative tasks, provides necessary documents, and creates favorable conditions for me to work effectively. I especially appreciate that the mentor allows me to try and solve problems myself instead of just giving the answer.
+The mentor closely followed my learning and working process, providing dedicated guidance when I faced difficulties while still encouraging me to research and find solutions first. The admin team also supported me very quickly with procedures, documents, and program activities, making the internship run smoothly.
 
 **3. Relevance of Work to Academic Major**  
-The tasks I was assigned align well with the knowledge I learned at university, while also introducing me to new areas I had never encountered before. This allowed me to both strengthen my foundational knowledge and gain practical skills.
+The assigned tasks are closely related to the Information Technology major, especially in the field of Cloud Computing and AWS. Besides applying the knowledge learned at school, I also had the chance to access many new technologies and real-world workflows that I hadn't experienced before.
 
 **4. Learning & Skill Development Opportunities**  
-During the internship, I learned many new skills such as using project management tools, teamwork skills, and professional communication in a corporate environment. The mentor also shared valuable real-world experiences that helped me better plan my career path.
+Throughout the internship, I had the opportunity to participate in knowledge-sharing workshops led by industry experts. At the same time, I also improved my skills in teamwork, communication, task management, and using AWS services to deploy real projects. These are very useful experiences for my future career.
 
 **5. Company Culture & Team Spirit**  
-The company culture is very positive: everyone respects each other, works seriously but still keeps things enjoyable. When there are urgent projects, everyone works together and supports one another regardless of their position. This made me feel like a real part of the team, even as an intern.
+I am very impressed with the working culture at FCAJ. Members are always open, friendly, and willing to share their experiences with each other. The positive working atmosphere makes it easy for everyone to exchange ideas, solve problems together, and complete tasks effectively.
 
 **6. Internship Policies / Benefits**  
-The company provides an internship allowance and offers flexible working hours when needed. In addition, having the opportunity to join internal training sessions is a big plus.
-
----
+FCAJ provides excellent conditions for interns to learn and develop through training programs, workshops, and opportunities to participate in real projects. In addition, the flexible working hours allow me to balance my university studies and the internship. This is a suitable environment for students to accumulate knowledge and experience before entering the official workforce.
 
 ### Additional Questions
-- What did you find **most satisfying** during your internship?  
-- What do you think the company **should improve** for future interns?  
-- If recommending to a friend, would you **suggest they intern here**? Why or why not?  
 
----
+- What did you find **most satisfying** during your internship?  
+  
+  There is a clear learning path, video tutorials, and support from seniors, making it very easy to acquire new knowledge.
+
+- What do you think the company **should improve** for future interns?  
+  
+  The random selection process puts interns at a disadvantage; some get selected repeatedly while others do not, meaning those left out are at a real disadvantage as they have to rely on self-study at home.
+
+- If recommending to a friend, would you **suggest they intern here**? Why or why not?  
+  
+  I would recommend it because this is a great starting environment to learn and develop a career in Cloud.
 
 ### Suggestions & Expectations
+
 - Do you have any suggestions to improve the internship experience?  
+  
+  I suggest changing the method of approving office visits to another approach, so that everyone can go to the office more often.
+
 - Would you like to continue this program in the future?  
-- Any other comments (free sharing):
+  
+  Definitely, if there is an opportunity.

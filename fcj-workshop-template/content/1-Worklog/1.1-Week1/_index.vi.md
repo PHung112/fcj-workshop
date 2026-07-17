@@ -1,59 +1,42 @@
 ---
 title: "Worklog Tuần 1"
-date: 2024-01-01
+date: 2026-05-04
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 1:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Làm quen với chương trình First Cloud AI Journey – Workforce Bootcamp 2026.
+* Tìm hiểu các khái niệm cơ bản về Cloud Computing, DevOps và nền tảng AWS.
+* Tạo tài khoản AWS và thực hành các bài lab đầu tiên.
+* Làm quen với các dịch vụ nền tảng như IAM và Amazon VPC.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Tìm hiểu chương trình First Cloud AI Journey – Workforce Bootcamp 2026 <br> - Tìm hiểu tổng quan về Cloud Computing và DevOps | 04/05/2026 | 04/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 3 | - Tạo tài khoản AWS <br> - Làm quen với AWS Management Console <br> - Tìm hiểu các nhóm dịch vụ cơ bản của AWS | 05/05/2026 | 05/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Thực hành bài lab đầu tiên <br>&emsp; + Hoàn thành các nhiệm vụ của bài lab <br>&emsp; + Tìm hiểu các dịch vụ có thể phát sinh chi phí <br>&emsp; + Thiết lập AWS Budgets để cảnh báo chi phí <br>&emsp; + Xem lộ trình học AWS | 06/05/2026 | 06/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 5 | - Thực hành AWS Identity and Access Management (IAM) <br>&emsp; + IAM User <br>&emsp; + IAM Group <br>&emsp; + IAM Policy <br>&emsp; + Phân quyền truy cập cơ bản | 08/05/2026 | 08/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | - Tìm hiểu Amazon Virtual Private Cloud (VPC) <br>&emsp; + VPC <br>&emsp; + Subnet <br>&emsp; + Route Table <br>&emsp; + Internet Gateway <br> - Thực hành tạo VPC cơ bản | 10/05/2026 | 10/05/2026 | https://cloudjourney.awsstudygroup.com/ |
 
 ### Kết quả đạt được tuần 1:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Hiểu mục tiêu và lộ trình đào tạo của chương trình First Cloud AI Journey – Workforce Bootcamp 2026.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Nắm được các khái niệm cơ bản về Cloud Computing, DevOps và hệ sinh thái AWS.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Tạo thành công tài khoản AWS và làm quen với AWS Management Console.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Hoàn thành bài lab đầu tiên, biết cách theo dõi các dịch vụ có thể phát sinh chi phí và thiết lập AWS Budgets để nhận cảnh báo.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Hiểu vai trò của AWS IAM trong quản lý danh tính và phân quyền truy cập tài nguyên.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+* Thực hành tạo IAM User, IAM Group, IAM Policy và gán quyền truy cập phù hợp.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Nắm được các thành phần cơ bản của Amazon VPC và thực hành triển khai môi trường mạng đơn giản trên AWS.
 
-
+* Chuẩn bị nền tảng kiến thức cho các bài thực hành AWS ở những tuần tiếp theo.

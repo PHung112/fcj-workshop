@@ -1,59 +1,42 @@
 ---
 title: "Worklog Tuần 3"
-date: 2024-01-01
-weight: 1
+date: 2026-05-18
+weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+
 
 
 ### Mục tiêu tuần 3:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Tìm hiểu cơ chế phân quyền bằng IAM Role trên EC2.
+* Làm quen với môi trường phát triển AWS Cloud9 và AWS CLI.
+* Thực hành lưu trữ dữ liệu với Amazon S3 và cơ sở dữ liệu Amazon RDS.
+* Triển khai ứng dụng trên Amazon Lightsail và Lightsail Container.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Tìm hiểu IAM Role trên EC2 <br>&emsp; + Cấp quyền truy cập dịch vụ AWS không sử dụng Access Key <br>&emsp; + Thực hành gắn IAM Role cho EC2 Instance | 18/05/2026 | 18/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 3 | - Tìm hiểu môi trường AWS Cloud9 <br>&emsp; + Sử dụng AWS CLI <br>&emsp; + Thực hành các lệnh cơ bản trên Terminal | 19/05/2026 | 19/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Thực hành với Amazon S3 <br>&emsp; + Tạo Bucket <br>&emsp; + Static Website Hosting <br>&emsp; + Block Public Access <br>&emsp; + Bucket Versioning <br>&emsp; + Quản lý Object | 20/05/2026 | 20/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 5 | - Tìm hiểu Amazon RDS <br>&emsp; + Triển khai Database <br>&emsp; + Kết nối EC2 với RDS <br>&emsp; + Thực hành Backup và Restore | 21/05/2026 | 21/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | - Thực hành triển khai WordPress, PrestaShop và Akaunting trên Amazon Lightsail <br> - Tìm hiểu Amazon Lightsail Container và triển khai ứng dụng container | 22/05/2026 | 22/05/2026 | https://cloudjourney.awsstudygroup.com/ |
 
 ### Kết quả đạt được tuần 3:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Hiểu cơ chế hoạt động của IAM Role và biết cách cấp quyền truy cập dịch vụ AWS cho EC2 Instance mà không cần sử dụng Access Key.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Làm quen với môi trường phát triển AWS Cloud9, sử dụng AWS CLI và các thao tác cơ bản trên Terminal.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Thực hành tạo và quản lý Amazon S3 Bucket, cấu hình Static Website Hosting, Block Public Access, Bucket Versioning và quản lý Object.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Triển khai thành công cơ sở dữ liệu Amazon RDS, kết nối EC2 với RDS và thực hiện sao lưu, khôi phục dữ liệu.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Triển khai các ứng dụng WordPress, PrestaShop và Akaunting trên Amazon Lightsail.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+* Hiểu quy trình tạo Amazon Lightsail Container Service và triển khai ứng dụng container trên môi trường Lightsail.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Củng cố kiến thức về lưu trữ, cơ sở dữ liệu và triển khai ứng dụng trên nền tảng AWS.

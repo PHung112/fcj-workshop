@@ -1,59 +1,42 @@
 ---
 title: "Worklog Tuần 4"
-date: 2024-01-01
-weight: 1
+date: 2026-05-25
+weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+
 
 
 ### Mục tiêu tuần 4:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Tìm hiểu các dịch vụ giám sát và quản lý tài nguyên trên AWS.
+* Thực hành quản trị hạ tầng bằng Infrastructure as Code.
+* Làm quen với AWS CloudFormation và AWS CDK.
+* Triển khai kiến trúc ứng dụng cơ bản bằng AWS CDK.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Tìm hiểu Amazon CloudWatch <br>&emsp; + Metrics <br>&emsp; + Logs <br>&emsp; + Dashboards <br> - Thực hành giám sát tài nguyên AWS | 25/05/2026 | 25/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 3 | - Thực hành cấu hình CloudWatch Alarms <br> - Quản lý Resource Tags, Resource Groups và phân loại tài nguyên AWS | 26/05/2026 | 26/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Tìm hiểu IAM kết hợp Resource Tags để kiểm soát quyền truy cập EC2 <br> - Thực hành phân quyền theo nhóm người dùng | 27/05/2026 | 27/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 5 | - Thực hành AWS Systems Manager Session Manager <br>&emsp; + Kết nối EC2 không sử dụng SSH <br>&emsp; + Session Logs <br>&emsp; + Port Forwarding | 28/05/2026 | 28/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | - Tìm hiểu Infrastructure as Code với AWS CloudFormation <br> - Thực hành triển khai hạ tầng bằng CloudFormation và AWS CDK <br> - Triển khai kiến trúc ECS, ALB, API Gateway, Lambda, Amazon S3 bằng CDK; tìm hiểu Nested Stack và CloudWatch Agent | 29/05/2026 | 29/05/2026 | https://cloudjourney.awsstudygroup.com/ |
 
 ### Kết quả đạt được tuần 4:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Hiểu vai trò của Amazon CloudWatch trong việc giám sát tài nguyên thông qua Metrics, Logs, Alarms và Dashboards.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Thực hành cấu hình CloudWatch Alarm, sử dụng Resource Tags và Resource Groups để quản lý tài nguyên hiệu quả.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Nắm được cách kết hợp IAM với Resource Tags để kiểm soát quyền truy cập vào EC2 theo từng nhóm người dùng.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Thực hành kết nối và quản lý EC2 bằng AWS Systems Manager Session Manager, đồng thời sử dụng Session Logs và Port Forwarding mà không cần SSH.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Hiểu nguyên lý Infrastructure as Code và triển khai hạ tầng bằng AWS CloudFormation.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+* Làm quen với AWS CDK, hiểu mối quan hệ giữa CDK và CloudFormation, đồng thời triển khai hạ tầng cơ bản bằng mã nguồn.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Thực hành triển khai kiến trúc sử dụng ECS, Application Load Balancer, API Gateway, Lambda và Amazon S3 bằng AWS CDK; tìm hiểu cách tổ chức hạ tầng với Nested Stack và sử dụng CloudWatch Agent để thu thập dữ liệu giám sát.

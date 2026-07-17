@@ -1,59 +1,44 @@
 ---
 title: "Worklog Tuần 5"
-date: 2024-01-01
-weight: 1
+date: 2026-06-01
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+
 
 
 ### Mục tiêu tuần 5:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Ôn tập và nâng cao kiến thức về quản lý danh tính và phân quyền trên AWS.
+* Tìm hiểu các dịch vụ bảo mật và mã hóa dữ liệu.
+* Thực hành quản lý thông tin bí mật và giám sát hoạt động truy cập.
+* Tăng cường bảo mật cho Amazon S3 và kết nối dịch vụ thông qua VPC Endpoint.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Ôn tập IAM User, IAM Group, IAM Policy và IAM Role <br>&emsp; + Thực hành quản lý quyền truy cập <br>&emsp; + Xây dựng IAM Role sử dụng Condition | 01/06/2026 | 01/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 3 | - Tìm hiểu IAM Permission Boundary <br> - Thực hành AWS IAM Identity Center để quản lý người dùng và phân quyền tập trung | 02/06/2026 | 02/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Tìm hiểu AWS Key Management Service (KMS) <br>&emsp; + Tạo và quản lý khóa mã hóa <br>&emsp; + Mã hóa dữ liệu trên Amazon S3 | 03/06/2026 | 03/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 5 | - Theo dõi hoạt động truy cập bằng AWS CloudTrail và Amazon Athena <br> - Tìm hiểu AWS Secrets Manager và quản lý thông tin bí mật | 04/06/2026 | 04/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | - Thực hành tích hợp AWS Secrets Manager với Amazon RDS và AWS Fargate <br> - Tìm hiểu các biện pháp bảo mật Amazon S3 <br> - Cấu hình Bucket Policy, Block Public Access, AWS Config, Amazon Access Analyzer, VPC Endpoint và VPC Endpoint Policy | 05/06/2026 | 07/06/2026 | https://cloudjourney.awsstudygroup.com/ |
 
 ### Kết quả đạt được tuần 5:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Ôn tập và củng cố kiến thức về IAM User, IAM Group, IAM Policy, IAM Role và áp dụng Condition để kiểm soát quyền truy cập.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Hiểu cách sử dụng IAM Permission Boundary nhằm giới hạn phạm vi quyền tối đa của người dùng và vai trò trong hệ thống.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Thực hành AWS IAM Identity Center để quản lý tập trung người dùng, nhóm người dùng và phân quyền trên môi trường AWS.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Tạo và quản lý khóa mã hóa bằng AWS KMS, đồng thời mã hóa dữ liệu lưu trữ trên Amazon S3.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Theo dõi hoạt động truy cập thông qua AWS CloudTrail và Amazon Athena, đồng thời quản lý thông tin nhạy cảm bằng AWS Secrets Manager.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+* Tích hợp AWS Secrets Manager với Amazon RDS và AWS Fargate để tăng cường bảo mật cho ứng dụng.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Thực hành cấu hình Bucket Policy, Block Public Access, AWS Config, Amazon Access Analyzer, VPC Endpoint và VPC Endpoint Policy nhằm nâng cao mức độ bảo mật cho Amazon S3.
 
-
+* Tổng hợp kiến thức về IAM, KMS, Secrets Manager và các giải pháp bảo mật trên AWS để chuẩn bị cho giai đoạn triển khai dự án.

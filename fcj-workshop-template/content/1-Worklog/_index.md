@@ -1,39 +1,35 @@
 ---
 title: "Worklog"
-date: 2024-01-01
+date: 2026-07-05
 weight: 1
 chapter: false
 pre: " <b> 1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
+During my participation in the **First Cloud AI Journey – Workforce Bootcamp 2026** program, I had the opportunity to access and practice with various services on the Amazon Web Services (AWS) platform. This ranged from foundational knowledge of cloud computing, infrastructure management, security, and system monitoring to applying AWS services in designing, developing, and deploying a real-world project. Besides completing practical exercises according to the training roadmap, I also collaborated with team members to analyze requirements, build system architectures, develop applications, and deploy systems on the AWS environment.
 
-**On this page**, you will need to introduce your worklog. **How** did you complete it? How many weeks did you take to complete the program? **What** did you do in those weeks?
-
-Typically, and as a standard, a worklog is carried out over about 3 months (throughout the internship period) with weekly contents as follows:
+The worklog below records the activities performed, results achieved, and the learning and research process during each week of the internship. The details for each week are as follows:
 
 **Week 1:** [Getting familiar with AWS and basic AWS services](1.1-week1/)
 
-**Week 2:** [Doing task A...](1.2-week2/)
+**Week 2:** [Networking and Compute: Amazon VPC, EC2, Site-to-Site VPN, and CloudWatch](1.2-week2/)
 
-**Week 3:** [Doing task B...](1.3-week3/)
+**Week 3:** [Storage and Database: IAM Role, Amazon S3, RDS, and Lightsail](1.3-week3/)
 
-**Week 4:** [Doing task C...](1.4-week4/)
+**Week 4:** [Infrastructure as Code with AWS CloudFormation and AWS CDK](1.4-week4/)
 
-**Week 5:** [Doing task D...](1.5-week5/)
+**Week 5:** [Advanced Security, Data Encryption, and Amazon VPC Endpoint](1.5-week5/)
 
-**Week 6:** [Doing task E...](1.6-week6/)
+**Week 6:** [Capstone Project Ideation, AWS Services Selection, and Planning](1.6-week6/)
 
-**Week 7:** [Doing task G...](1.7-week7/)
+**Week 7:** [Requirement Analysis and AWS System Architecture Design](1.7-week7/)
 
-**Week 8:** [Doing task H...](1.8-week8/)
+**Week 8:** [Environment Setup and Backend Services Development](1.8-week8/)
 
-**Week 9:** [Doing task I...](1.9-week9/)
+**Week 9:** [Frontend Development, System Integration, and UI Optimization](1.9-week9/)
 
-**Week 10:** [Doing task L...](1.10-week10/)
+**Week 10:** [Testing, Debugging, and System Refinement](1.10-week10/)
 
-**Week 11:** [Doing task M...](1.11-week11/)
+**Week 11:** [Deploying the Project to the Real AWS Environment](1.11-week11/)
 
-**Week 12:** [Doing task N...](1.12-week12/)
+**Week 12:** [Project Wrap-up, Evaluation, and Final Presentation](1.12-week12/)

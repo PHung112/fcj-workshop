@@ -1,57 +1,42 @@
 ---
 title: "Week 4 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-05-25
+weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+
 
 
 ### Week 4 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Learn AWS monitoring and resource management services.
+* Practice managing infrastructure using Infrastructure as Code (IaC).
+* Become familiar with AWS CloudFormation and AWS CDK.
+* Deploy a basic application architecture using AWS CDK.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 2 | - Learn Amazon CloudWatch <br>&emsp; + Metrics <br>&emsp; + Logs <br>&emsp; + Dashboards <br> - Practice monitoring AWS resources | 25/05/2026 | 25/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 3 | - Configure CloudWatch Alarms <br> - Manage AWS resources using Resource Tags and Resource Groups | 26/05/2026 | 26/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Learn how to use IAM with Resource Tags to control EC2 access <br> - Practice permission management for different user groups | 27/05/2026 | 27/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 5 | - Practice AWS Systems Manager Session Manager <br>&emsp; + Connect to EC2 without SSH <br>&emsp; + Manage Session Logs <br>&emsp; + Configure Port Forwarding | 28/05/2026 | 28/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | - Learn Infrastructure as Code with AWS CloudFormation <br> - Practice deploying infrastructure using CloudFormation and AWS CDK <br> - Deploy an architecture with ECS, Application Load Balancer, API Gateway, Lambda, and Amazon S3 using CDK; explore Nested Stacks and CloudWatch Agent | 29/05/2026 | 29/05/2026 | https://cloudjourney.awsstudygroup.com/ |
 
 ### Week 4 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Understood the role of Amazon CloudWatch in monitoring AWS resources using Metrics, Logs, Alarms, and Dashboards.
 
-* Successfully created and configured an AWS Free Tier account.
+* Successfully configured CloudWatch Alarms and managed AWS resources using Resource Tags and Resource Groups.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Learned how to combine IAM with Resource Tags to control access to EC2 resources based on user groups.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Practiced connecting to and managing EC2 instances using AWS Systems Manager Session Manager, including Session Logs and Port Forwarding without SSH.
 
-* Used AWS CLI to perform basic operations such as:
+* Understood the Infrastructure as Code (IaC) concept and deployed infrastructure using AWS CloudFormation.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* Became familiar with AWS CDK, understood its relationship with CloudFormation, and deployed basic infrastructure using code.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Successfully deployed an application architecture using ECS, Application Load Balancer, API Gateway, Lambda, and Amazon S3 with AWS CDK, while exploring Nested Stacks and CloudWatch Agent for infrastructure organization and monitoring.

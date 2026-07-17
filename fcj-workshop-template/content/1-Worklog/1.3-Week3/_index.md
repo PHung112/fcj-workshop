@@ -1,57 +1,42 @@
 ---
 title: "Week 3 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-05-18
+weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+
 
 
 ### Week 3 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Learn how to grant AWS service permissions using IAM Roles on EC2.
+* Become familiar with the AWS Cloud9 development environment and AWS CLI.
+* Practice object storage with Amazon S3 and database deployment using Amazon RDS.
+* Deploy applications using Amazon Lightsail and Lightsail Containers.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 2 | - Learn IAM Roles for EC2 <br>&emsp; + Grant AWS service permissions without Access Keys <br>&emsp; + Attach IAM Roles to EC2 instances | 18/05/2026 | 18/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 3 | - Learn the AWS Cloud9 development environment <br>&emsp; + Use AWS CLI <br>&emsp; + Practice basic terminal commands | 19/05/2026 | 19/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Practice Amazon S3 <br>&emsp; + Create S3 Buckets <br>&emsp; + Configure Static Website Hosting <br>&emsp; + Enable Block Public Access <br>&emsp; + Configure Bucket Versioning <br>&emsp; + Manage Objects | 20/05/2026 | 20/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 5 | - Learn Amazon RDS <br>&emsp; + Deploy a database <br>&emsp; + Connect EC2 to RDS <br>&emsp; + Practice database backup and restore | 21/05/2026 | 21/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | - Deploy WordPress, PrestaShop, and Akaunting on Amazon Lightsail <br> - Learn Amazon Lightsail Containers and deploy containerized applications | 22/05/2026 | 22/05/2026 | https://cloudjourney.awsstudygroup.com/ |
 
 ### Week 3 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Understood how IAM Roles work and learned how to grant AWS service permissions to EC2 instances without using Access Keys.
 
-* Successfully created and configured an AWS Free Tier account.
+* Became familiar with the AWS Cloud9 development environment, AWS CLI, and basic terminal operations.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Successfully created and managed Amazon S3 buckets, configured Static Website Hosting, enabled Block Public Access, Bucket Versioning, and managed objects.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Deployed an Amazon RDS database, connected it to an EC2 instance, and practiced database backup and restore.
 
-* Used AWS CLI to perform basic operations such as:
+* Successfully deployed WordPress, PrestaShop, and Akaunting on Amazon Lightsail.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* Learned how to create an Amazon Lightsail Container Service and deploy containerized applications.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Strengthened practical knowledge of AWS storage, databases, and application deployment services.

@@ -1,57 +1,44 @@
 ---
 title: "Week 8 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-06-22
+weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+
 
 
 ### Week 8 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Finalize the AWS system architecture design.
+* Set up the development environment and assign project tasks.
+* Develop Backend services based on the designed architecture.
+* Integrate Backend modules and prepare for the Frontend development phase.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 2 | - Continue refining the AWS Architecture Diagram <br> - Optimize the system architecture <br> - Study the roles and relationships of AWS services used in the project | 22/06/2026 | 22/06/2026 | https://docs.aws.amazon.com/ |
+| 3 | - Finalize the system architecture design <br> - Agree on the implementation approach <br> - Prepare for Backend development | 23/06/2026 | 23/06/2026 | Internal team documents |
+| 4 | - Set up the development environment <br> - Configure the Backend project <br> - Assign development tasks to team members | 24/06/2026 | 24/06/2026 | Internal team documents |
+| 5 | - Develop the Site Service <br>&emsp; + Build RESTful APIs <br>&emsp; + Implement business logic based on the system design | 25/06/2026 | 25/06/2026 | Project design documents |
+| 6 | - Continue improving the Site Service and perform API testing <br> - Develop the Media Service and Notification Service <br> - Build APIs, implement business logic, and integrate Backend modules <br> - Verify service connectivity and prepare for the Frontend development phase | 26/06/2026 | 28/06/2026 | Project design documents |
 
 ### Week 8 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Successfully finalized the AWS Architecture Diagram and optimized the system architecture based on project requirements.
 
-* Successfully created and configured an AWS Free Tier account.
+* Completed the architecture design, finalized the implementation plan, and prepared for the Backend development phase.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Successfully configured the development environment and initialized the Backend project.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Completed task allocation among team members according to the project modules.
 
-* Used AWS CLI to perform basic operations such as:
+* Developed the Site Service by implementing RESTful APIs and core business logic.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* Continued enhancing the Site Service, performed API testing, and integrated it with other Backend services.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Developed the Media Service and Notification Service according to the project requirements.
+
+* Integrated all Backend modules, verified communication between services, and completed the preparation for the Frontend development stage.
